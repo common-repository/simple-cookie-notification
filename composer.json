@@ -1,0 +1,21 @@
+{
+    "name": "beforeafter/cookies",
+    "description": "Plugin puts notice about using cookies and about privacy policy",
+    "type": "wpplugin",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Mateusz",
+            "email": "mateusz.grzybowski@b4after.pl"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BeforeAfter\\Cookies\\": "libs/"
+        },
+        "files": [
+            "libs/ba_cookies_functions.php"
+        ]
+    }
+}
